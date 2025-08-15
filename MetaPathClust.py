@@ -55,7 +55,7 @@ def load_and_prepare_data():
 
     # Handle missing values and convert to numeric
     for col in X.columns:
-        if 'E-value' in col:
+        if '_E' in col:
             # Convert E-values from scientific notation to float
             X[col] = pd.to_numeric(X[col], errors='coerce')
             # E-value of 0 is the BEST (most significant), 1 is worst
