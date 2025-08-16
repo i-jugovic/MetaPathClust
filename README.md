@@ -1,5 +1,5 @@
 # Metabolic Pathway Clustering (MetaPathClust)
-MetaPathClust is a python script for enzyme sequence and metabolic pathway comparison and clustering using query cover, percent identity, and E-values. Performs PCA, Elbow method, Silhouette analysis, K-means, and hierarchical clustering to group species metabolically, integrates taxonomic grouping, and outputs visualizations with a short summary statistics.
+**MetaPathClust** is a python script for enzyme sequence and metabolic pathway comparison and clustering using query cover, percent identity, and E-values. Performs PCA, Elbow method, Silhouette analysis, K-means, and hierarchical clustering to group species metabolically, integrates taxonomic grouping, and outputs visualizations with a short summary statistics.
 
 # Overview - MetaPathClust
 **Purpose.** Given a semicolon-delimited CSV of enzyme search metrics (per pathway P1–P8: query coverage, % identity, E-value) across species, the script:
