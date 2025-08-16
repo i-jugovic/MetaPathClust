@@ -36,3 +36,6 @@ An example .csv file is uploaded (named `Raw enzyme data.csv`). The delimiter is
   - `cluster_optimization_hierarchical.`, `hierarchical_clustering_optimal.`
   - `cluster_optimization_kmeans.`, `silhouette_analysis_detailed.`
 - Console summary with optimal k, silhouette score, distributions, and file list.
+
+# Citing
+
