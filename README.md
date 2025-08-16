@@ -1,5 +1,5 @@
-# MetaPathClust
-Python script for enzyme sequence and metabolic pathway comparison and clustering using query cover, percent identity, and E-values. Performs PCA, Elbow method, Silhouette analysis, K-means, and hierarchical clustering to group species metabolically, integrates taxonomic grouping, and outputs visualizations with a short summary statistics.
+# Metabolic Pathway Clustering (MetaPathClust)
+MetaPathClust is a python script for enzyme sequence and metabolic pathway comparison and clustering using query cover, percent identity, and E-values. Performs PCA, Elbow method, Silhouette analysis, K-means, and hierarchical clustering to group species metabolically, integrates taxonomic grouping, and outputs visualizations with a short summary statistics.
 
 # Overview - MetaPathClust
 **Purpose.** Given a semicolon-delimited CSV of enzyme search metrics (per pathway P1–P8: query coverage, % identity, E-value) across species, the script:
@@ -24,4 +24,15 @@ Python script for enzyme sequence and metabolic pathway comparison and clusterin
 - `scipy`
 - `kneed`
 - (optional) `warnings` is stdlib
-  
+
+Make sure the packages are installed.
+
+# Input data layout
+An example .csv file is uploaded (named `Raw enzyme data.csv`). The delimiter is the semicolon `;`. The first required column is the `Species` column. For pathways there are enzymes from P1 to P8 in our example. `_Cov` is Query Cover in percentages, `ID` is Percent Identity also in percentages, `_E` is E-value in the scientific notation (Note: E-values may include zeros (treated as very significant), scientific notation, or blanks.).
+
+# Outputs
+- Figures (PNG + SVG):
+  - `pca_full_dataset.`, `pca_p1_p2_p7_p8.`, `pca_p4_p5_p6_p7_p8.`, `pca_p1_p2_p4_p5_p6.`
+  - `cluster_optimization_hierarchical.`, `hierarchical_clustering_optimal.`
+  - `cluster_optimization_kmeans.`, `silhouette_analysis_detailed.`
+- Console summary with optimal k, silhouette score, distributions, and file list.
