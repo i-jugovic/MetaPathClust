@@ -53,7 +53,7 @@ For statistical validation, we employed multiple complementary metrics. The silh
 The output is automatically generated in high-resolution PNG (300 DPI) and vec-tor SVG formats. The plots are separated for each analysis type, and the script gives a comprehensive summary statistics.
 
 # Usage
-This methodology is suited for:
+This methodology is suited for or can be partly used for:
 - **comparative enzymology** (identifying metabolic similarities across species),
 - **phylogenetic analysis** (comparing taxonomic vs. functional clustering),
 - **biomarker discovery** (finding enzyme profiles that distinguish species groups),
@@ -61,4 +61,5 @@ This methodology is suited for:
 - **synthetic biology** (finding optimal enzyme sources for pathway engineering).
 
 # Citing
+Karničnik, B.; Jugović, I.; Accetto, T.; Fanedl, L.; Avguštin, G.; Trček, J. *Gluconacetobacter brunescens* sp. nov., a Novel Acetic Acid Bacterium Isolated from Pear Vinegar, Producing a Water-Soluble Brown Pigment. Microorganisms 2025, 13, x. https://doi.org/10.3390/xxxxx
 
