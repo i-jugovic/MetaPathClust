@@ -61,5 +61,4 @@ This methodology is suited for or can be partly used for:
 - **synthetic biology** (finding optimal enzyme sources for pathway engineering).
 
 # Citing
-Karničnik, B.; Jugović, I.; Accetto, T.; Fanedl, L.; Avguštin, G.; Trček, J. *Gluconacetobacter brunescens* sp. nov., a Novel Acetic Acid Bacterium Isolated from Pear Vinegar, Producing a Water-Soluble Brown Pigment. Microorganisms 2025, 13, x. https://doi.org/10.3390/xxxxx
-
+Karničnik, B.; Jugović, I.; Accetto, T.; Fanedl, L.; Avguštin, G.; Trček, J. *Gluconacetobacter brunescens* sp. nov., a Novel Acetic Acid Bacterium Isolated from Pear Vinegar, Producing a Water-Soluble Brown Pigment. *Microorganisms* **2025**, *13*, 2620. https://doi.org/10.3390/microorganisms13112620
